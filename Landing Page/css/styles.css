@@ -10,9 +10,8 @@
 }
 
 @font-face {
-    font-family: Montserrat;
+    font-family: Montserrat-Medium;
     src: url(../fonts/Montserrat-Medium.ttf);
-    font-weight: medium;
 }
 
 header {
@@ -133,7 +132,7 @@ footer h5 {
 
 footer input {
     color: #707070;
-    font-weight: medium;
+    font-family: Montserrat-Medium;
 }
 
 #application-text {
