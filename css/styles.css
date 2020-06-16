@@ -1,0 +1,253 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(fonts/Montserrat-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(fonts/Montserrat-Medium.ttf);
+    font-weight: medium;
+}
+
+header {
+    padding: 0 35px;
+}
+
+body {
+    background-color: #F7F7FF;
+    font-family: Montserrat;
+}
+
+main {
+    padding: 20px 35px;
+}
+
+img#logo {
+    width: 125px;
+}
+
+form {
+    border-radius: 25px;
+}
+
+input {
+    border: 0;
+    background-color: #F4F4F5;
+    color: #9B9B9B;
+    width: 100%;
+    border-radius: 10px;
+    padding: 0 10px;
+    height: 40px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+input#terms {
+    width: 25px;
+    height: 25px;
+}
+
+input[type=submit] {
+    color: white;
+    background-color: #FF8480;
+    font-size: 24px;
+}
+
+label[for=terms] {
+    display: inline-block;
+    font-size: 16px;
+}
+
+form#white-form {
+    background-color: white;
+    box-shadow: 5px 5px 10px grey;
+    padding: 20px;
+    margin: 15px 0;
+}
+
+form#white-form input[type=submit] {
+    color: black;
+    background-color: #57EEAB;
+    margin: 10px 0;
+    height: 55px;
+}
+
+fieldset {
+    border: 0;
+    padding: 5px 0px;
+}
+
+footer {
+    background-color: #FFFD8C;
+    padding: 20px 35px;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0 0 10px 0;
+}
+
+h2 {
+    font-size: 40px;
+    margin: 0 0 10px 0;
+}
+
+h4 {
+    font-size: 24px;
+    margin: 0;
+}
+
+h5 {
+    font-size: 16px;
+    margin: 0;
+}
+
+a {
+    color: #FF8480;
+    text-decoration: none;
+}
+
+h1,
+h2,
+input[type=submit] {
+    font-weight: bold;
+}
+
+h3,
+h4,
+h5 {
+    font-weight: normal;
+}
+
+footer h5 {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+footer input {
+    color: #707070;
+    font-weight: medium;
+}
+
+#application-text {
+    font-size: 14px;
+}
+
+#hours-text {
+    font-size: 16px;
+}
+
+#footer-input {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 10px;
+}
+
+#icons {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px auto;
+    width: 250px;
+}
+
+@media (min-width: 768px) {
+    header {
+       padding: 0 75px;
+    }
+
+    main {
+       padding: 20px 75px;
+    }
+
+    footer {
+        padding: 20px 75px;
+    }
+    
+    h1 {
+        font-size: 80px;
+    }
+
+    h5 {
+        font-size: 30px;
+    }
+
+    #white-form h5 {
+        padding: 15px 0;
+    }
+
+    form#white-form {
+        padding: 35px;
+    }
+
+    form#white-form input {
+        font-size: 18px;
+        height: 55px;
+    }
+
+    form#white-form input[type=submit] {
+        font-size: 32px;
+        height: 64px;
+    }
+
+    label[for=terms] {
+        font-size: 20px;
+    }
+
+    form#white-form input#terms {
+        width: 29px;
+        height: 29px;
+    }
+
+    #application-text {
+        font-size: 17px;
+    }
+
+    footer form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+    }
+
+    #hours-text {
+        margin: 10px 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    main {
+        display: grid;
+        padding: 40px 75px 90px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    h1 {
+        margin-bottom: 50px;
+    }
+
+    img#scooter {
+        margin: 0 -125px;
+    }
+
+    footer form {
+        width: 615px;
+        float: left;
+    }
+
+    #icons {
+        float: right;
+        margin-top: -30px;
+    }
+
+    .clearfix:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+}
