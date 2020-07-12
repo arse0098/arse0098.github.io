@@ -1,0 +1,830 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 10px 0;
+}
+
+h3 {
+    font-size: 24px;
+    color: #26a682;
+}
+
+h4 {
+    font-size: 18px;
+    color: white;
+    padding: 20px 0;
+}
+
+p {
+    font-size: 20px;
+    line-height: 35px;
+    padding: 10px 0;
+}
+
+#logo-img img {
+    width: 88px;
+}
+
+ul li {
+    padding: 11px 0px;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+ul li a:hover {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #3c3b3a;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+footer #footer-h3 {
+    color: white;
+    padding: 20px 0 0 0;
+}
+
+.nav-section {
+    background-color: #3c3b3a;
+    text-align: center;
+    overflow: auto;
+}
+
+.active {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.button {
+    background-color: #26a682;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    border-radius: 25px;
+    width: 50%;
+    padding: 10px 10px;
+    text-align: center;
+    margin-left: auto;
+    box-shadow: 5px 5px 10px grey;
+    font-weight: bold;
+}
+
+.button-large {
+    font-size: 32px;
+    width: 80%;
+    margin: auto;
+}
+
+#footer-icons {
+    display: inline-flex;
+
+    padding: 5px 0 20px;
+}
+
+#footer-icons img {
+    padding: 0 5px;
+}
+
+#gototop {
+    position: absolute;
+    right: 10px;
+    top: 30px;
+}
+
+#gototop img {
+    width: 22px;
+}
+
+#gototop span {
+    font-size: 9px;
+    color: white;
+    display: block;
+}
+
+#gototop a {
+    text-decoration: none;
+}
+
+/* HOME PAGE */
+
+.your-arc-section {
+    padding: 0 1.5rem;
+}
+
+.home-icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    padding: 0 0 10px;
+}
+
+.home-icons img {
+    width: 38px;
+}
+
+.home-icons span {
+    display: block;
+    color: #26a682;
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.discover-algonquin-section {
+    padding: 0 1.5rem 20px 1.5rem;
+}
+
+.simon-section {
+    background-color: #3c3b3a;
+    color: white;
+    padding: 20px 1.5rem;
+}
+
+.simon-center {
+    text-align: center;
+}
+
+.simon-center h2 {
+    font-style: normal;
+}
+
+.entertainment-section {
+    padding: 0 1.5rem 20px 1.5rem;
+}
+
+#bowling-icon,
+#climbing-icon,
+#fitness-icon,
+#indoor-court-icon {
+    padding: 10px 0;
+}
+
+#discover-img {
+    padding: 20px 25px 10px 25px;
+}
+
+#discover-img img {
+    width: 100%;
+}
+
+#scroll-down {
+    display: none;
+    animation-name: scroll;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes scroll {
+    0% {transform: translate(0, 0);}
+    50% {transform: translate(0, 40px);}
+    100% {transform: translate(0, 0);}
+}
+
+#school-img img {
+    width: 100%;
+    /* following lines to set the height, but  keep the width as 100% without stretching the image */
+    height: 200px;
+    object-fit: cover;
+}
+
+#simon-img img {
+    width: 175px;
+    border-radius: 150px;
+    border: solid white 8px;
+}
+
+#entertainment-img img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* ABOUT PAGE */
+
+.construction-section {
+    padding: 0 1.5rem;
+}
+
+.about-section {
+    padding: 0 1.5rem;
+    background-color: #f2f2f2;
+}
+
+.about-img {
+    position: relative;
+    background-color: #26a682;
+}
+
+.about-img img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    /* I gave the div (parent element) a background colour, and using mix-blend-mode allows the image to take on that colour */
+    mix-blend-mode: multiply;
+}
+
+.about-img h1 {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.activity-img {
+    display: none;
+}
+
+.need-a-break-section {
+    padding: 0 1.5rem;
+}
+
+.competitive-friends-section {
+    padding: 0 1.5rem;
+    background-color: #f2f2f2;
+}
+
+.newsletter-section {
+    background-color: #3c3b3a;
+    color: white;
+    text-align: center;
+    padding: 0 0 20px 0;
+}
+
+.newsletter-section .button {
+    margin-left: 0;
+    margin: auto;
+    box-shadow: none;
+}
+
+.new-year-section {
+    padding: 0 1.5rem;
+}
+
+.thank-you-section {
+    text-align: center;
+    padding: 0 1.5rem;
+}
+
+.thank-you-section h1 {
+    font-size: 56px;
+}
+
+.thank-you-section img {
+    padding: 20px 0;
+}
+
+.indoor-climbing-section {
+    padding: 0 1.5rem;
+    background-color: #f2f2f2;
+}
+
+#construction-img {
+    padding: 10px 1.5rem;
+}
+
+#construction-img img {
+    width: 100%;
+}
+
+/* The following two images to not appear in mobile view so I add display:none */
+
+#sa-img img {
+    width: 300px;
+}
+
+#ac-logo-img img {
+    width: 200px;
+}
+
+#pcl-img img {
+    width: 220px;
+}
+
+#cibc-img img {
+    width: 150px;
+}
+
+/* CONTACT PAGE */
+
+.hear-section {
+    padding: 0 1.5rem;
+}
+
+.contact-form {
+    background-color: #26a682;
+    border-radius: 30px;
+    margin: 0 20px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px grey;
+}
+
+.contact-form h2 {
+    color: white;
+    font-style: normal;
+}
+
+.contact-form label {
+    color: white;
+    display: block;
+    padding: 5px 0;
+}
+
+.contact-form input, textarea {
+    border-radius: 25px;
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    height: 5em;
+    border-radius: 10px;
+}
+
+.contact-form #submitbutton {
+    background-color: #3c3b3a;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px 0;
+    margin: 10px 0;
+    box-shadow: 0 5px 15px black;
+}
+
+.location-section {
+    padding: 0 1.5rem;
+}
+
+.location-section h3 {
+    color: black;
+}
+
+#contact-img {
+    padding: 10px 25px;
+}
+
+#contact-img img {
+    width: 100%;
+}
+
+#submitbutton:hover {
+    transform: scale(1.2);
+}
+
+/* By taking transition off of hover, it scales down slowly rather than snapping back to the original size */
+
+#submitbutton {
+    transition: transform 0.3s;
+}
+
+iframe {
+    height: 250px;
+    width: 100%;
+}
+
+
+@media (min-width: 768px) {
+
+    h1 {
+        font-size: 72px;
+    }
+
+    h2 {
+        padding: 30px 0 15px;
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 32px;
+        padding: 10px 0;
+    }
+
+    p {
+        font-size: 18px;
+    }
+    
+    nav {
+        float: right;
+        padding: 22px 5rem 22px 22px;
+    }
+    
+    ul li {
+        display: inline-block;
+        padding: 10px;
+    }
+
+    ul li:nth-child(3) {
+        /* This removes padding on the right of "contact" in the nav, keeping it in line with everything on the right side of the site */
+        padding-right: 0;
+    }
+
+    .button {
+        font-size: 27px;
+        width: 30%;
+    }
+   
+    .button-large {
+        width: 50%;
+        font-size: 40px;
+    }
+   
+
+    #logo-img {
+        float: left;
+        padding-left: 5rem;
+    }
+   
+    /* HOME PAGE */
+
+    .your-arc-section {
+        padding: 0 5rem;
+    }
+
+    .your-arc-section p {
+        font-size: 24px;
+    }
+
+    .home-icons {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0 20px;
+    }
+
+    .discover-algonquin-section {
+        padding: 0 5rem 20px 5rem;
+    }
+
+    .simon-section {
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        grid-gap: 4rem;
+        padding: 30px 5rem;
+    }
+
+    .simon-section h2, .simon-section p {
+        font-size: 24px;
+    }
+
+    .entertainment-section {
+        padding: 0 5rem 20px;
+    }
+
+    #discover-img {
+        text-align: center;
+        padding: 30px 25px 20px 25px;
+    }
+
+    #discover-img img {
+        width: 50%;
+    }
+
+    #scroll-down {
+        display: block;
+        text-align: center;
+        padding: 10px 0 40px;
+    }
+
+    #scroll-down img {
+        width: 26px;
+        margin: auto;
+        display: block;
+        transform: scale(-1)
+    }
+
+    #scroll-down span {
+        font-size: 16px;
+    }
+
+
+    /* ABOUT PAGE */
+
+    .construction-section {
+        padding: 0 5rem;
+    }
+
+    .construction-section p {
+        font-size: 24px;
+    }
+
+    .about-section {
+        padding: 0 5rem 30px;
+    }
+
+    .need-a-break-section {
+        display: grid;
+        grid-template-columns: 218px auto;
+        grid-gap: 1rem;
+        padding: 5rem;
+    }
+
+    .competitive-friends-section {
+        display: grid;
+        grid-template-columns: auto 218px;
+        grid-gap: 1rem;
+        padding: 5rem;
+    }
+
+    .activity-img {
+        display: block;
+    }
+
+    .need-a-break-section h2,
+    .competitive-friends-section h2,
+    .new-year-section h2,
+    .indoor-climbing-section h2 {
+        padding: 0;
+    }
+
+    .activity-img img {
+        height: 375px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .newsletter-section {
+        padding: 10px 0;
+        overflow: auto;
+        padding: 10px 5rem;
+    }
+
+    .newsletter-section .button {
+        width: auto;
+        float: right;
+        font-size: 24px;
+    } 
+
+    .newsletter-section h4 {
+        float: left;
+        padding: 10px 0;
+        font-size: 24px;
+    }
+
+    .new-year-section {
+        display: grid;
+        grid-template-columns: 218px auto;
+        grid-gap: 1rem;
+        padding: 5rem;
+    }
+
+    .indoor-climbing-section {
+        display: grid;
+        grid-template-columns: auto 218px;
+        grid-gap: 1rem;
+        padding: 5rem;
+    }
+
+    .thank-you-section {
+        padding: 40px 8rem;
+    }
+
+    #construction-img {
+        padding: 20px 5rem;
+    }
+
+    #sa-img img {
+        width: 435px;
+    }
+
+
+    /* CONTACT PAGE */
+
+    iframe {
+        height: 500px;
+    }
+
+    .hear-section {
+        padding: 50px 5rem 0;
+    }
+
+    .hear-section p {
+        font-size: 24px;
+    }
+
+    .contact-form {
+        padding: 0 3rem 20px;
+        margin: 0 5rem;
+    }
+
+    .contact-form h2 {
+        font-size: 72px;
+    }
+
+    .contact-form label {
+        font-size: 24px;
+        padding: 20px 0;
+    }
+
+    .contact-form input {
+        padding: 15px 20px;
+    }
+
+    .contact-form textarea {
+        padding: 15px 20px;
+        height: 10em;
+    }
+
+    .contact-form #submitbutton {
+        font-size: 40px;
+        width: auto;
+        padding: 0 20px;
+        margin-left: auto;
+    }
+
+    #contact-img {
+        padding: 10px 5rem;
+    }
+
+    .location-section {
+        padding: 50px 5rem 10px;
+    }
+
+    .location-section h3 {
+        font-size: 40px;
+    }
+
+}
+
+@media (min-width: 1280px) {
+
+    nav {
+        padding: 22px 8rem 22px 22px;
+    }
+
+    #logo-img {
+        padding-left: 8rem;
+    }
+
+    /* HOME PAGE */
+
+    .your-arc-section {
+        padding: 3rem 0 0;
+    }
+
+    .your-arc-section h1,
+    .your-arc-section p,
+    .your-arc-section .home-icons {
+        padding: 40px 0;
+    }
+
+    .your-arc-grid {
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        grid-gap: 3rem;
+        padding: 8rem 8rem 0;
+    }
+
+    .button-large {
+        margin: 40px 0;
+    }
+
+    .discover-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: #f2f2f2;
+        padding: 5rem 8rem;
+    }
+
+    .simon-center {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .simon-center h2 {
+        padding: 4rem 4rem;
+    }
+
+    .entertainment-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 5rem 8rem;
+    }
+
+    .entertainment-section {
+        /* because these sections are in reverse order in the html, grid-column allows me to flip them, and grid-row moves the 
+        column labeled as 1 up to the first row as well */
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    #discover-img {
+        padding: 0;
+    }
+
+    #discover-img img {
+        width: 100%;
+    }
+
+    #entertainment-img {
+        grid-column: 2;
+    }
+
+    #entertainment-img img {
+        height: 337px;
+    }
+
+    #school-img img {
+        height: 337px;
+    }
+
+    /* ABOUT PAGE */
+
+    .construction-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 8rem;
+    }
+
+    .about-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 4rem;
+        padding: 8rem;
+    }
+
+    .activity-img img {
+        height: 337px;
+    }
+
+    .need-a-break-section,
+    .competitive-friends-section,
+    .new-year-section,
+    .indoor-climbing-section {
+        grid-template-columns: 1fr 1fr;
+        padding: 4rem 8rem;
+    }
+
+    .newsletter-section h4,
+    .newsletter-section .button {
+        float: none;
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+    .thank-you-images {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    /* CONTACT PAGE */
+
+    .form-grid {
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+        grid-gap: 4rem;
+        padding: 8rem;
+    }
+
+    .hear-section {
+        padding: 0;
+    }
+
+    .contact-form {
+        margin: 0;
+    }
+
+    .contact-form #submitbutton {
+        margin-top: 40px;
+    }
+
+    .map-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 2rem 8rem 8rem;
+    }
+
+    .location-section {
+        padding: 0;
+    }
+
+    #contact-img {
+        text-align: center;
+    }
+
+    #contact-img img {
+        width: 80%;
+    }
+}
