@@ -98,7 +98,6 @@ footer #footer-h3 {
 
 #footer-icons {
     display: inline-flex;
-
     padding: 5px 0 20px;
 }
 
@@ -106,6 +105,8 @@ footer #footer-h3 {
     padding: 0 5px;
 }
 
+/* I centered everything in the footer, and used position absolute to keep the button on the right without changing the
+position of the icons in the middle */
 #gototop {
     position: absolute;
     right: 10px;
@@ -187,6 +188,7 @@ footer #footer-h3 {
     width: 100%;
 }
 
+/* I thought the scroll icon would look really cool if it was on an infinite loop pointing down */
 #scroll-down {
     display: none;
     animation-name: scroll;
@@ -194,6 +196,7 @@ footer #footer-h3 {
     animation-iteration-count: infinite;
 }
 
+/* using keyframes I set the animation to move down 40px before coming back up to its original position */
 @keyframes scroll {
     0% {transform: translate(0, 0);}
     50% {transform: translate(0, 40px);}
@@ -202,7 +205,7 @@ footer #footer-h3 {
 
 #school-img img {
     width: 100%;
-    /* following lines to set the height, but  keep the width as 100% without stretching the image */
+    /* following 2 lines are to set the height, but keep the width as 100% without stretching the image */
     height: 200px;
     object-fit: cover;
 }
@@ -243,6 +246,7 @@ footer #footer-h3 {
     mix-blend-mode: multiply;
 }
 
+/* using these properties on the h1 allows it to sit on top of the image, in this exact position regardless of window size */
 .about-img h1 {
     color: white;
     position: absolute;
@@ -251,6 +255,7 @@ footer #footer-h3 {
 	transform: translate(-50%, -50%);
 }
 
+/* The following images do not appear in mobile view so I add display:none */
 .activity-img {
     display: none;
 }
@@ -306,8 +311,6 @@ footer #footer-h3 {
 #construction-img img {
     width: 100%;
 }
-
-/* The following two images to not appear in mobile view so I add display:none */
 
 #sa-img img {
     width: 300px;
@@ -391,12 +394,12 @@ footer #footer-h3 {
     width: 100%;
 }
 
+/* This makes the submit button grow larger when the mouse of hovering on it */
 #submitbutton:hover {
     transform: scale(1.2);
 }
 
 /* By taking transition off of hover, it scales down slowly rather than snapping back to the original size */
-
 #submitbutton {
     transition: transform 0.3s;
 }
@@ -605,6 +608,7 @@ iframe {
         padding: 20px 5rem;
     }
 
+    /* This is the only one of the four images that has a size change between window sizes */
     #sa-img img {
         width: 435px;
     }
@@ -769,6 +773,8 @@ iframe {
         height: 337px;
     }
 
+    /* All four of these sections have similar formatting at this size, however I didn't want to give them all the same
+    class as some have different background colours and photo/text arrangements */
     .need-a-break-section,
     .competitive-friends-section,
     .new-year-section,
