@@ -1,0 +1,272 @@
+body {
+    font-family: 'cambria math';
+}
+
+a {
+    text-decoration: none;
+    color: #FF3434;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav li {
+    text-align: center;
+    font-size: 35px;
+    padding: 1rem 0;
+}
+
+h1 {
+    color: #FF3434;
+    font-size: 55px;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+h3 {
+    color: #FF3434;
+    font-size: 30px;
+    padding: 0.5rem 0;
+}
+
+h4 {
+    color: #FF3434;
+    font-size: 25px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 150%;
+}
+
+span {
+    color: #FF3434;
+    font-size: 30px;
+    display: block;
+}
+
+footer {
+    background-color: #242424;
+    text-align: center;
+}
+
+.header {
+    background-color: #242424;
+}
+
+.ca-logo {
+    text-align: center;
+}
+
+.ca-logo img{
+    width: 180px;
+    padding: 1rem 0;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+.footer-icons img {
+    height: 60px;
+    padding: 0.5rem 0.5rem;
+}
+
+
+/* HOME PAGE */
+
+.welcome-section {
+    padding: 0 1rem;
+}
+
+.portfolio-link {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.home-images {
+    display: none;
+}
+
+
+/* PORTFOLIO PAGE */
+
+.portfolio-content {
+    text-align: center;
+}
+
+.portfolio-content img {
+    width: 325px;
+    padding: 1rem 0;
+}
+
+.portfolio-content p {
+    text-align: left;
+    padding: 1rem;
+}
+
+
+/* ABOUT PAGE */
+
+.about-img {
+    text-align: center;
+    padding: 4rem 1rem;
+}
+
+.about-content p {
+    padding: 1rem;
+}
+
+
+@media (min-width: 768px) {
+
+    h1 {
+        font-size: 70px;
+    }
+
+    h3 {
+        font-size: 35px;
+    }
+
+    h4 {
+        font-size: 30px;
+    }
+
+    p {
+        text-align: unset;
+        padding: 0 2rem;
+    }
+
+    footer {
+        text-align: left;
+        padding: 0 3rem;
+    }
+
+    .ca-logo {
+        text-align: unset;
+        float: left;
+        padding: 1rem 2rem;
+    }
+
+    nav {
+        float: right;
+    }
+
+    nav li {
+        display: inline-block;
+        padding: 6.5rem 4rem 0 0;
+    }
+
+    .header {
+        overflow: auto;
+    }
+
+    /* HOME PAGE */
+
+    .portfolio-link {
+        display: none;
+    }
+
+    .home-images {
+        display: block;
+        text-align: center;
+    }
+
+    .home-images div {
+        display: inline-block;
+        padding: 1rem 2rem;
+    }
+
+    .home-images img {
+        width: 300px;
+    }
+
+
+    /* PORTFOLIO PAGE */
+
+    .portfolio-content img {
+        width: 440px;
+    }
+
+    /* ABOUT PAGE */
+
+    .about-text {
+        padding: 10rem 3rem;
+    }
+
+    .about-img {
+        padding: 10rem 0 0;
+    }
+}
+
+@media (min-width: 1280px) {
+
+    h1 {
+        padding-top: 6rem;
+    }
+
+    footer {
+        overflow: auto;
+        padding: 2rem 6rem;
+    }
+
+    nav li {
+        padding: 6.5rem 6rem 0 0;
+    }
+
+    .ca-logo {
+        padding: 1rem 6rem;
+    }
+
+    .footer-text {
+        float: left;
+    }
+
+    .footer-icons {
+        float: right;
+    }
+
+    /* HOME PAGE */
+
+    .welcome-section p {
+        padding: 6rem 16rem;
+    }
+
+    .home-images {
+        padding: 0 6rem;
+    }
+
+    .home-images div {
+        padding: 1rem 1.2rem 4rem;
+    }
+
+    /* PORTFOLIO PAGE */
+
+    .portfolio-content {
+        text-align: left;
+    }
+
+    .portfolio-content img {
+        float: left;
+        padding: 0 1rem 0 0;
+    }
+
+    .portfolio-content div {
+        overflow: auto;
+        padding: 2rem 6rem;
+    }
+
+    /* ABOUT PAGE */
+
+    .about-content {
+        display: flex;
+        padding: 0 6rem;
+    }
+
+    .about-img {
+        padding: 14rem 0 0 0;
+    }
+
+
+}
