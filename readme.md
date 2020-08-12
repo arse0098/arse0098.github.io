@@ -13,3 +13,5 @@ As far as the coding itself, I considered using bootstrap for this site, but dec
 While I still find myself using Google a whole lot when doing these assignments, I definitely feel more confident with these assignments. One thing I'm very happy with is my improvement with not having uneccesary code. Both my HTML and CSS are vastly shorter and much more organized than they were at the beginning of the semester, and it's saving me a ton of time when doing these assignments. It also saves me a ton of time when sifting through everything when looking for those inevitable mistakes that are breaking my entire site!
 
 My font choice is "Cambria Math", and the one image I used that I didn't take myself was the Algonquin College logo.
+
+Thanks for the great semester, Rob!
